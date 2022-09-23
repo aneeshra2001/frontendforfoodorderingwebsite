@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --navbar-height:59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+#logo{
+    margin: 23px -9px;
+
+}
+#navbar::before{
+    content: "";
+    background: url(../img/pic4.jfif) no-repeat center center/cover;
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4
+
+}
+#logo img{
+margin: 43px 44px;
+height: 87px;
+}
+#navbar ul{
+    display: flex;
+    
+}
+#navbar ul li{
+ list-style: none;
+ font-size: 1.3rem;
+ 
+ 
+}
+#navbar ul li a{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 3px 22px;
+    color: white;border: none;
+   }
+   #navbar ul li a:hover{
+       color: brown;
+       background-color: beige;
+   }
+#home{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+}
+#home::before{
+    content: "";
+    background:url(../img/pic5.jfif) no-repeat center center/cover;
+    position: absolute;
+    height: 39%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89
+
+}
+
+#home p{
+    color:blueviolet;
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 6px;
+    color: black;
+    text-align: center;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 6px;
+    color:black;}
+.btn{
+    border-radius: 9px;
+    background-color: aqua;
+    padding: 6px 18px;
+    border: 2px solid black;
+    color: blue;
+    font-size:inherit;
+    cursor: pointer;
+}.btn:hover{
+    background-color: azure;
+}
+#services{
+    display: flex;
+    margin: 15px 20px;
+}
+#services .box{
+    border: 4px solid red;
+    border-radius: 20px;
+    padding: 10px 12px;
+    margin: 10px 12px;
+    
+}
+#services .box img{
+    margin: auto;
+    display: block;
+    height: 160px;
+}
+#services .h-secondary{
+    text-align: center;
+}
+#clients-section{
+    height: 322px;
+    
+    
+
+
+}
+#clients{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+    justify-content: center;
+    
+
+
+}
+#clients-item{
+    padding: 30px;
+}
+#clients img{
+    height: 63px;
+   
+}
+
+#contact{
+position: relative;
+}
+#contact::before{
+    content: "";
+    background: url(../img/pic4.jfif) no-repeat center center/cover;
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4
+
+}
